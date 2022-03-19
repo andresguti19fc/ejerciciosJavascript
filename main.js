@@ -1,0 +1,9 @@
+let numLitros = parseInt(prompt("ingresa cuantos litros de nafta necesitas"));
+let result;
+  for(let i = 0; i <= numLitros; i++){
+
+    result=(`ud acaba de cargar ${numLitros} litros de nafta.
+    Muchas gracias por su compra.`);
+ 
+}
+document.write(result);
