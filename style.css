@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2rem;
@@ -7,9 +12,10 @@ body{
     color: #fff;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 h1{
     font-size: 12rem;
+    padding: 10px 24px;
 }
