@@ -6,9 +6,7 @@ while (i != numero) {
     numero = prompt(`"${numero}" no es un numero valido.
       ingresa cuantos litros de nafta necesitas`);
   } else {
-    document.write(
-      `usted acaba de comprar ${numero} litros de nafta. muchas gracias por su compra`
-    );
+    document.write(`usted acaba de comprar ${numero} litros de nafta. muchas gracias por su compra`);
     break;
   }
 }
