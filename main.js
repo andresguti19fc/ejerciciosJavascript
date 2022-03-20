@@ -5,7 +5,7 @@ let resultado = 0;
 while (i != numero) {
   i++;
 
-  if (numero <= 0 || isNaN(numero)) {
+  if (numero <= 0 || isNaN(numero) || numero > 200) {
     numero = prompt(`"${numero}" no es un numero valido.
       ingresa cuantos litros de nafta necesitas`);
   } else {
@@ -14,7 +14,7 @@ while (i != numero) {
       continue;
     }
 
-    document.write(`${i} lts son = ${resultado} $ <br>`);
+    document.write(`${i} litros de nafta son = ${resultado} $ <br>`);
   }
 }
 document.write(
