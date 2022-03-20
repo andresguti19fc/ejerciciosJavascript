@@ -1,4 +1,15 @@
 body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    width: 100vw;
+    height: 100vh;
     background: rgb(3, 66, 241);
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 12rem;
 }
