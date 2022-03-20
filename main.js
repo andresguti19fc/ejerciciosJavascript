@@ -1,10 +1,14 @@
-let numLitros = parseInt(prompt("ingresa cuantos litros de nafta necesitas"));
-let result;
+var numero = prompt("ingresa cuantos litros de nafta necesitas");
 let i = 0;
-  while(i != numLitros){
-    i++;
-    result=(`ud acaba de cargar ${numLitros} litros de nafta.
-    Muchas gracias por su compra.`);
-   
+while (i != numero) {
+  i++;
+  if (numero <= 0 || isNaN(numero)) {
+    numero = prompt(`"${numero}" no es un numero valido.
+      ingresa cuantos litros de nafta necesitas`);
+  } else {
+    document.write(
+      `usted acaba de comprar ${numero} litros de nafta. muchas gracias por su compra`
+    );
+    break;
+  }
 }
-document.write(result);
