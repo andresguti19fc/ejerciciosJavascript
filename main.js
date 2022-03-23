@@ -14,7 +14,7 @@ while (i != numero) {
       continue;
     }
 
-    document.write(`${i} litros de nafta son = ${resultado} $ <br>`);
+    alert(`${i} litros de nafta son = ${resultado} $`);
   }
 }
 document.write(
